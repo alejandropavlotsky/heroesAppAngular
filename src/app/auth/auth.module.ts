@@ -6,8 +6,17 @@ import { RegistroComponent } from './pages/registro/registro.component';
 import { AuthRoutingModule } from './auth-routing.module';
 import { MaterialModule } from '../material/material.module';
 
+
+
 @NgModule({
-  declarations: [LoginComponent, RegistroComponent],
-  imports: [CommonModule, AuthRoutingModule, MaterialModule],
+  declarations: [
+    LoginComponent,
+    RegistroComponent
+  ],
+  imports: [
+    CommonModule,
+    AuthRoutingModule,
+    MaterialModule
+  ]
 })
-export class AuthModule {}
+export class AuthModule { }
